@@ -1,0 +1,7 @@
+Wzór na stężeie alkocholu
+
+A=Ml*(S/100)*0.8
+
+A-ilość alkoholu w trunku
+Ml-ilość trunku w mililitrach
+S- stęzenie procentowe trunku
