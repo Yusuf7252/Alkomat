@@ -5,3 +5,12 @@ A=Ml*(S/100)*0.8
 A-ilość alkoholu w trunku
 Ml-ilość trunku w mililitrach
 S- stęzenie procentowe trunku
+
+Wzór na promile
+
+P = A/(K x W)
+
+P – zawartość alkoholu we krwi w promilach
+A – ilość wypitego czystego alkoholu w gramach
+K – stały współczynnik 0,7 dla mężczyzn i 0,6 dla kobiet
+W – masa ciała w kg.
