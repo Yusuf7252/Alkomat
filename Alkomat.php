@@ -4,7 +4,11 @@
     Podaj ilość trunku
     <input name="ilość">
     Podaj płeć mężczyzna[M] lub kobieta[K]
-    <input name="plec">
+    <select name="plec">
+        <option value="0"></option>
+        <option value="M">M</option>
+        <option value="K">K</option>
+    </select>
     Podaj wagę
     <input name="waga">
         <input type="submit" name="Submit">
@@ -14,7 +18,12 @@
     $ilość = $_POST['ilość'];
     $plec = $_POST['plec'];
     $waga = $_POST['waga'];
+    $stenrzenie=$ilość*($wolt/100)*0.8;
+    if($plec == "M"){
+        $wpolczynnik = 0.7;
+    }else if($plec == "K"){
+        $wpolczynnik = 0.6;
+    };
+    echo $stenrzenie."<br>";
+    echo $wpolczynnik;
     ?>
-
-
-
