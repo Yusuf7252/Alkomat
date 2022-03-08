@@ -27,7 +27,12 @@
 
     $promile=$stenrzenie/($wpolczynnik*$waga);
 
-    echo "zawartość promili we krwi"."<br>";
-    echo $promile."";
+    echo"Podane dane: "."<br>";
+    echo"Woltomież trunku: ".$wolt."<br>";
+    echo"Ilość trunku: ".$ilość."ml"."<br>";
+    echo"Płeć: ".$plec."<br>";
+    echo"Waga: ".$waga."<br>"."<br>";
+    echo "Zawartość promili we krwi"."<br>";
+    echo $promile."&#8240";
 
     ?>
