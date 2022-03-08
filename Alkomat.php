@@ -24,6 +24,10 @@
     }else if($plec == "K"){
         $wpolczynnik = 0.6;
     };
-    echo $stenrzenie."<br>";
-    echo $wpolczynnik;
+
+    $promile=$stenrzenie/($wpolczynnik*$waga);
+
+    echo "zawartość promili we krwi"."<br>";
+    echo $promile."";
+
     ?>
